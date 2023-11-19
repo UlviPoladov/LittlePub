@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\corona.png" />
+    <None Remove="Images\nzs.png" />
+    <None Remove="Images\xirdalan.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\corona.png" />
+    <Resource Include="Images\nzs.png" />
+    <Resource Include="Images\xirdalan.png" />
+  </ItemGroup>
+
+</Project>
